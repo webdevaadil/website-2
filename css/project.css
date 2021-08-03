@@ -1,0 +1,720 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+html {
+    scroll-behavior: smooth;
+  }
+nav{
+    width: 100%;
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    position: relative;
+    background-color: white;
+}
+.nv ul{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-around;
+    justify-content: space-between;
+    margin-top: 22px;
+    
+}
+.nv ul li{
+    padding:5px 24px;
+}
+.nv ul li a{
+    font-size: 24px;
+    text-decoration: none;
+}
+.search-box{
+    margin-top: 10px;
+    padding: 0 10px 0 0;
+    height: 55px;
+    width: 48px;
+    position: relative;
+   
+    
+}
+.search-box img{
+    width: 44px;
+    margin-top: 5px;
+    
+}
+.sea{
+    position: absolute;
+    right: -192px;
+    top: 6px;
+    
+}
+.sea input{
+    height: 35px;
+    border-radius: 40px;
+    border:2px solid white;
+    text-align: center;
+}
+.search-box:hover .sea{
+    display: block;
+    right: 32px;
+    top: 8px;
+    transition: all 0.1s linear;
+ 
+}
+.search-box:hover img{
+    display: none;
+   
+}
+
+.second{
+    width: 100%;
+    height: 565px;
+    background: url( /image/banner_img.png)repeat center;
+    background-size:100%;
+    text-align: center;
+}
+.second h2{
+    color:#d4a81e;
+    font-size: 40px;
+    font-weight: 600;
+}
+.second h1{
+    margin-top: 32px;
+    color: white;
+    font-size: 55px;
+    font-weight: 600;
+    padding: 0;
+    line-height: 45px !important;
+    text-align: center;
+    color: #fff;
+}
+.second h3{
+    font-size: 30px;
+    font-weight: 300;
+    margin: 50px 0 0 0;
+    padding: 0;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+}
+.second button{
+    cursor: pointer;
+    width: 180px;
+    height: 50px;
+    background: #d4a81e;
+    color: #fff;
+    line-height: 50px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 50px;
+    border-radius: 5px;
+   
+}
+.third nav{
+   
+    height: 100px;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 20px;
+    background-color: white;
+    position:relative;
+    top: -50px;
+    overflow: hidden;
+    box-shadow: 0px 0 14px 0 rgb(0 0 0 / 30%);
+}
+.third nav ul{
+    display: contents;
+    
+
+}
+.third nav ul li{
+    width: 13.66%;
+    list-style-type: none;
+    text-align: center;
+    padding: 25px 0;
+    
+}
+.third nav ul li a{
+    width: 100%;
+    height: 10px;
+    text-decoration: none;
+
+}
+.third nav ul li span{
+    font-size: 17px;
+    font-weight: 500;
+    width: 100%;
+    text-align: center;
+    float: left;
+    padding: 10px 0 0 0;
+}
+.third a img{
+    height: 35px;
+    vertical-align: middle;
+}
+
+.welcome{
+    width: 85%;
+    height: 500px;
+    margin: 0 auto;
+    display: flex;
+
+}
+.wel1{
+    height: 431px;
+}
+.wel1,.wel2{
+    width:100%;
+
+}
+.wel1 h2{    color: #095a83;
+font-size: 40px;
+text-align: center;
+font-weight: 700;
+font-family: 'Raleway', sans-serif;
+}
+.wel1 span{
+    color: black;
+}
+.wel1 p{
+    margin: 33px;
+    letter-spacing: 3px;
+    height: 361px;
+    text-align: justify;
+    font-size: 23px;
+}
+.wel1 button{
+   margin: 0 auto;
+   width: 115px;
+   height: 38px;
+   background-color: #095a83;
+   color: white;
+}
+.wel2{
+ height: 100%;
+width: 100%;
+margin: auto 0;
+}
+.wel2 img{
+    width: 100%;
+    height:80%;
+}
+.spa{
+    background-color: white;
+    position: relative;
+    top: -43px;
+    right: -101px;
+    width: 31px;
+    height: 52px;
+    display: flex;
+    transform: skew(37deg)
+    }
+.pop h2{
+    width:298.8px;
+    margin:0 auto;
+    color: #095a83;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+    background-color: white;
+   
+}
+.pop span{
+    background-color:black;
+}
+.course{
+    width: 89%;
+    height: 400px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    justify-content: space-between;
+    justify-content: space-evenly;
+    background-image: linear-gradient(to right, rgba(0, 0, 255, 0.713) , white);
+    background-blend-mode: color-burn;
+}
+.a1{
+    margin-top: 19px;
+    height: 87%;
+    width: 30%;
+    background-color: white;
+
+}
+.a1 img{
+    height: 100%;
+    width: 100%;
+    
+}
+.a2 img{
+    height: 100%;
+    width: 100%;
+}
+.a3 img{
+    height: 100%;
+    width: 100%;
+}
+.a2{
+    background-color: white;
+    margin-top: 19px;
+    height: 87%;
+    width: 30%;
+   }
+.a3{
+    background-color: white;
+    margin-top: 19px;
+    height: 87%;
+    width: 30%;
+   }
+   .contain{
+       position:relative;
+       width:80%;
+       height: 50px;
+       margin: 0 auto;
+       top: -30px;
+       border-radius: 40px;
+       background-color: white;
+       box-shadow: 0px 0 14px 0 rgb(0 0 0 / 30%);
+       line-height: 50px;
+       text-align: center;
+   }
+   .ap{
+       width: 100%;
+       height: 479px;
+       
+         }
+   .app{
+       width: 100%;
+       height: 550px;
+       background-color:#eee;
+       margin-top: 79px;
+       display: flex;
+       flex-wrap: wrap;   
+       justify-content: center;
+       align-items: center;
+   }
+   .ad .wel1{
+       position: relative;
+       bottom: 40px;
+   }  
+   .add{
+    width: 40%;
+    height: 350px;
+    background: url(/image/img6.png) no-repeat ;
+    background-size: 100% 100%;
+}
+   .ad{
+       width: 40%;
+       margin-left: 20px;
+      font-size: 20px; 
+       height: 350px;
+     line-height: 30px;
+     margin-top: 20px;
+       
+    }
+    .sp{
+        background-color:#eee;
+        position: relative;
+        top: -43px;
+        right: -101px;
+        width: 31px;
+        height: 52px;
+        display: flex;
+        transform: skew(37deg)
+        }
+        .re{
+            width: 100%;
+            height: 450px;
+            background-color:white;
+            margin-top: 79px;
+            display: flex;
+            flex-wrap: wrap;   
+            justify-content: center;
+            align-items: center;
+            
+        }
+        .adp{
+    
+            width: 40%;
+            height: 350px;
+            background: url(/image/img7.png) no-repeat ;
+            background-size: 100% 100%;
+        } 
+        .news{
+            width: 100%;
+            height: 100%;
+           
+        }     
+        .news h1 ,.contact h1{
+            color: #095a83;
+            text-align: center;
+        }  
+        .news img{
+          display: block;
+          margin: 0 auto;
+        }
+        .news1{
+            height: 100%;
+            width: 80%;
+            display: flex;
+            flex-direction: row;
+            margin: 0 auto;
+            justify-content: space-between;
+            
+          
+        }
+        .news1 img{
+            width: 98.9%;
+            height: 45%;
+            margin-bottom: 50px;
+        }
+        .newsbox1, .newsbox2{
+            margin-top: 40px;
+            width: 40%;
+            height: 437px;
+            margin-top: 0 auto;
+            font-size: 20px;
+            text-align: center;
+            flex-wrap: wrap;
+            display:flex ;
+            flex-direction:row;
+            justify-content: center;
+            align-items: center;
+          
+        }
+        .newb{
+            width: 300px;
+            height: 40px;
+            position: relative;
+            bottom: 190px;
+            font-size: 30px;
+            background: rgb(240, 239, 235);
+            box-shadow:4px 5px 8px black;
+        }
+        
+        .contact img{
+          margin: 0 auto;
+         display: block;
+        }
+        .conb{
+            margin-top: 40px;
+            height: 62  0px;
+            width: 100%;
+            background: #12385b;
+            display: flex;
+         
+            justify-content: space-around;
+        }
+        .im img{
+            width: 80%;
+        }
+       table{
+           margin-top: 53px;
+         
+       
+        }
+        .name{
+            width: 100px;
+        }
+        #na , #em , #pn{
+            width: 400px;
+            height: 56px;
+            margin-top: 10px;
+            border-radius: 32px;
+        }
+        #mass{
+            width: 400px;
+            height: 130px;
+            margin-top: 10px;
+            border-radius: 63px;
+        }
+        #button{
+            display: block;
+            margin: 0 auto;
+            margin-top: 20px;
+            height: 60px;
+            width: 120px;
+            background: #e0af14;
+            border-radius: 25px;
+        }
+        #button:hover{
+            background: white;
+        } 
+        .last{
+            background: #0b1c2c;
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            height: auto;
+            justify-content: space-around;
+
+
+        }
+
+        .learn , .quicklink, .newsletter, .contactus{
+            width: 25%;
+            height: 300px;
+        }
+        .learn {
+            display: flex;
+            flex-direction: column;
+            margin: 19px;
+        }
+    .newsletter p,  .learn p{
+        font-size: 20px;
+            letter-spacing: 1px;
+         line-height: 30px;
+         font-weight: 300;
+         color: white;
+         margin: 5px ;
+         margin-top: 38px;
+         margin-bottom: 1rem;
+    
+    
+   
+
+        }
+        .quick link{
+            border: 2px solid;
+        }
+      .newsletter h3, .quicklink h3,   .contactus h3 {
+            border-bottom:solid #e0af14 2px;
+            font-weight: 600;
+            width: 80%;
+            padding: 12px;
+            margin-top: 14px;
+            margin-bottom: 15px;  
+            font-size: 22px;
+            color: #fff;
+              }
+
+        .quicklink ul{
+            width: auto;
+            margin-top: 36px;
+
+        }     
+        .quicklink ul li{
+            list-style-type: none;
+        } 
+        .quicklink ul li a{
+            text-decoration: none;
+            color: white;
+             line-height: 25px;
+             width: 120px;
+             font-size: 20px;           
+             text-align: center;             
+             line-height: 35px;
+        }
+        .newsletter{
+            /* display: flex;
+            flex-direction: column; */
+            justify-content: center;
+            align-items: center;
+
+        }
+        .newsletter input{      
+            padding: 5px 10px;
+            font-size: 20px;
+            border: none;
+            border-radius: 5px;
+            margin-bottom: 10px;
+            width: 80%;
+        }
+       .newsletter button{
+            background: #e0af14;
+            color: #fff;
+            border: none;
+            font-size: 20px;
+            font-weight: 600;
+            padding: 5px 25px;
+            border-radius: 5px;
+            cursor: pointer;
+        
+        }
+     .contactus ul {
+         width: 100%;
+       }
+       .contactus ul li{
+           list-style: none;
+           display: flex;
+        }
+       .contactus span{
+            text-decoration: none;
+            color: #fff;
+            font-size: 20px;
+            margin-top: 24px;
+        }
+        .contactus img{
+            height: 24px;
+            width: 25px;
+            margin-right: 15px;
+            position: relative;
+            top: 5px;
+            margin-top: 24px;
+        }
+   
+   
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 720px)
+{
+    .img img{
+        width: 226px;
+        height: 74px;
+    }
+    
+    nav{
+        position: relative;
+        display: block;
+        flex-wrap: wrap;
+        flex-direction: column;
+        height: 360px;
+       
+    }
+    .nv ul{
+     display: flex;
+    flex-direction: column;
+    text-align: center;
+    }
+    .search-box{
+        position: relative;
+        left: 88%;
+    }
+    .second{
+        height: 300px;
+    }
+    .second h2{
+      font-size:24px;
+    }
+    .second h1{
+        font-size:25px;
+        margin-top: 15px;
+    }
+    .second h3{
+        margin-top: 15px;
+        letter-spacing: 3px;
+    }
+    .third nav{
+        overflow: auto;
+        display: flex;
+    }
+    .third nav ul li span{
+        font-size: 15px;
+
+    }
+    .third nav ul li{
+        width: 34%;
+        height: 29%;
+    } 
+    .welcome{
+        display:flex;
+        flex-direction: column;
+        height: 766px;
+    }
+    .welcome h2{
+        height: 16%;
+     text-align:center;
+     
+     width: 100%;
+
+    }
+    .wel1{
+        height: 569px;
+        width: 100%;
+    }
+    .wel1 p{
+        width: 100%;
+       
+        margin: 0 auto;
+        letter-spacing: 0px;
+        height: auto;
+    }
+    .button button{
+        position: relative;
+        top: 1px;
+    }
+    .wel1 span{width: 38px;
+
+    }
+    .course{
+        height: 367px;
+    display: contents;
+    flex-direction: column;
+    
+    }
+    .a1,.a2,.a3{
+        margin: 0 auto;
+        width: 80%;
+    }
+   .pop h2{
+
+       width: 297.9px;
+       height: 44px;
+    } 
+    .a1 img,.a2 img,.a3 img{
+        height: 50%;
+    }
+   .ad{
+       width: 100%;
+       height: 487px;
+   }
+   .add{
+       width: 100%;
+       height: 250px;
+       background-size: 100%;
+   }
+   .app{
+       align-items: baseline;
+       height: 847px;
+   }
+   .ap{
+       height:814px
+   }
+   .adp{
+       width: 87%;
+       height: 266px;
+   }
+   .news1{
+    flex-wrap: wrap;
+    display:flex ;
+    flex-direction:column;
+   }
+   .newsbox1, .newsbox2{
+       width: 100%;
+       margin-top: 80px;
+         display: flex;
+       justify-content: center;
+    align-items: center;
+   }
+   .newb{
+    width: 193px;
+    height: 40px;
+    position: relative;
+    bottom: 185px;
+  
+   }
+   .conb{
+    flex-direction: column;
+   }
+   #na , #em , #pn,#mass{
+       width: 300px;
+       border-radius: 0;
+   }
+   #button{
+       border-radius: 0;
+   }
+   .learn, .quicklink, .newsletter, .contactus {
+    width: 92%;
+   }
+   .last{
+    flex-direction: column;
+   }
+
+
+}   
